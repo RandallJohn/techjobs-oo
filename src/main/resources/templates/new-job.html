@@ -48,8 +48,7 @@
         <select th:field="*{positionTypeId}">
             <option th:each="positionType : *{positionTypes}"
                     th:value="${positionType.id}"
-                    th:text="${positionType.value}">
-            </option>
+                    th:text="${positionType.value}"></option>
         </select>
     </div>
 
