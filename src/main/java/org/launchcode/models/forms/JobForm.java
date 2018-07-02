@@ -50,7 +50,6 @@ public class JobForm {
         /*
             TODO #4 (FINISH)- populate the other ArrayList collections needed in the view
         */
-
         employers = jobData.getEmployers().findAll();
         locations = jobData.getLocations().findAll();
         coreCompetencies = jobData.getCoreCompetencies().findAll();
@@ -59,42 +58,34 @@ public class JobForm {
     }
 
     public int getLocationId() {
-
         return locationId;
     }
 
     public void setLocationId(int locationId) {
-
         this.locationId = locationId;
     }
 
     public int getCoreCompetencyId() {
-
         return coreCompetencyId;
     }
 
     public void setCoreCompetencyId(int coreCompetencyId) {
-
         this.coreCompetencyId = coreCompetencyId;
     }
 
     public int getPositionTypeId() {
-
         return positionTypeId;
     }
 
     public void setPositionTypeId(int positionTypeId) {
-
         this.positionTypeId = positionTypeId;
     }
 
     public String getName() {
-
         return name;
     }
 
     public void setName(String name) {
-
         this.name = name;
     }
 
@@ -103,32 +94,26 @@ public class JobForm {
     }
 
     public void setEmployerId(int employerId) {
-
         this.employerId = employerId;
     }
 
     public ArrayList<Employer> getEmployers() {
-
         return employers;
     }
 
     public void setEmployers(ArrayList<Employer> employers) {
-
         this.employers = employers;
     }
 
     public ArrayList<Location> getLocations() {
-
         return locations;
     }
 
     public void setLocations(ArrayList<Location> locations) {
-
         this.locations = locations;
     }
 
     public ArrayList<CoreCompetency> getCoreCompetencies() {
-
         return coreCompetencies;
     }
 
@@ -137,7 +122,6 @@ public class JobForm {
     }
 
     public ArrayList<PositionType> getPositionTypes() {
-
         return positionTypes;
     }
 
